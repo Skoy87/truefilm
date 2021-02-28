@@ -4,10 +4,13 @@ This ETL pipeline is designed to run using a Jupiter Notebook with a Python 3 ke
 It will use multiple python modules (listed in the requirements.txt file). The notebook will install all the dependencies in the first cell.
 Postgresql is the required output so it's essential that you have it set up on the computer where the notebook is going to run.
 
-Should you not be familiar with the tools, check this webpages to assist
+Should you not be familiar with the tools, check these webpages to assist
 - Python 3: https://realpython.com/installing-python/
 - Jupyter: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
-- Postgres: https://www.postgresql.org/download/
+- Postgres:
+- - https://www.postgresql.org/download/
+- - useful links for troubleshooting username and password: https://stackoverflow.com/questions/46781471/why-postgresql-on-mac-asks-me-for-password-after-fresh-install/49124153
+- - useful link for first setup: https://wiki.postgresql.org/wiki/Homebrew
 
 ### Datasets:
 Two datasets are used for this ETL.
