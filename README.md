@@ -1,4 +1,4 @@
-# true_film_ETL
+# TrueFilm_ETL
 ### Requirements:
 This ETL pipeline is designed to run using a Jupiter Notebook with a Python 3 kernel.
 It will use multiple python modules (listed in the requirements.txt file). The notebook will install all the dependencies in the first cell.
@@ -39,3 +39,6 @@ A modern standard for Data ETL
 Widely used industry standard to handle structured data within Python
 #### python-sql
 Python library that allows running queries for postgres from within the notebook
+
+### Example run:
+download the file `true_film_ETL.html` and open it in your browser to see a full successful run
